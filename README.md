@@ -39,3 +39,15 @@ A full-stack MERN application to store, manage, and retrieve code snippets effic
 ```bash
 git clone <your-repo-url>
 cd snippet-manager
+
+cd server
+npm install
+
+# Development mode with Nodemon
+npx nodemon index.js
+
+cd ../client
+npm install
+
+npm run dev
+
